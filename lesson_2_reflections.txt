@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git creates a hidden directory and files that keep track of commit history and changes. Without using init, you won't be able to commit changes for version control.
