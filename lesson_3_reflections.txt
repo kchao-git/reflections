@@ -15,3 +15,6 @@ Having this stored locally would allow you to have the latest version of the rem
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Without Git or Github (or other similar tools), doing things like splitting up work so that conflicts won't occur might be necessary. However, this becomes complicated when it comes to things like code where multiple people might need to make changes to the same lines. On the flip side, this may require more communication between collaborators so you might be on the "same page" more often and less likely to have to deal with conflicts like in Git.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+You can work in a separate branch when you're trying to add a new feature or you just want to work on some changes without affecting the master. When you push this back to GitHub, you can do a pull request to merge it back into master instead of updating master itself and either possibly messing something up or running into conflicts with other collaborators.
